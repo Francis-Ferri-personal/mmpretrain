@@ -1,6 +1,11 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 # Pre-defined categories names of various datasets.
 
+FEMORAL_ARTERY_CATEGORIES = (
+    'high_position', 'low_position', 'aneurysm', 'dissection', 
+    'stenosis', 'obstruction', 'abnormal'
+)
+
 VOC2007_CATEGORIES = ('aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus',
                       'car', 'cat', 'chair', 'cow', 'diningtable', 'dog',
                       'horse', 'motorbike', 'person', 'pottedplant', 'sheep',
